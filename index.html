@@ -11,13 +11,13 @@
 <style>
     .one {
         height: 30px;
- width: 170px;
+        width: 170px;
         margin-bottom: 20px;
         width: 260px;
         color: rgb(17, 16, 16);
         background-color: rgb(136, 103, 103);
         cursor: pointer;
-        
+
 
     }
 
@@ -31,14 +31,29 @@
     <div class="content">
         <div class="containor">
             <h1>Loging page</h1>
-            <div class="text"> <input type="text" placeholder="Inter username"></div>
+            <div class="text"> <input id="name" type="text" placeholder="Inter username"></div>
 
-            <div class="password"> <input type="password" placeholder="password"></div>
+            <div class="password"> <input id="passw" type="password" placeholder="password"></div>
 
-            <button class="one">Login</button>
+            <button class="one" onclick="func()">Login</button>
         </div>
     </div>
 
+    <script>
+
+        function func() {
+            var gmail = document.getElementById("name").value;
+            var pass = document.getElementById("passw").value;
+
+            if (gmail === 'gaurav36@gmail.com' && pass === '12345678') {
+                window.location.assign("home.html");
+            } else {
+                alert("Invalid data");
+            }
+        }
+
+
+    </script>
 </body>
 
 </html>
