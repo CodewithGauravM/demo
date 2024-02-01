@@ -1,0 +1,47 @@
+h1 {
+    color: rgb(212, 142, 56);
+
+}
+
+.text {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.password {
+    margin-top: 20;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+input {
+    height: 30px;
+    width: 260px;
+}
+
+.content {
+    background-color: antiquewhite;
+    margin: auto;
+    width: 20%;
+    border: 3px solid rgb(8, 8, 8);
+    padding: 10px;
+    text-align: center;
+    margin-top: 16%;
+   
+    border-radius: 15px;
+
+}
+
+body {
+    background-image: url(milky.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.text, password, button{
+    border-radius: 15px;
+}
